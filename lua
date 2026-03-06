@@ -1,9 +1,9 @@
 shared.LoaderTitle = "Loading Script May take few minutes...";
 shared.LoaderKeyFrames = {
-    [1] = {10, 10},
-    [2] = {30, 30},
-    [3] = {60, 60},
-    [4] = {50, 100}
+    [1] = {5, 10},
+    [2] = {10, 30},
+    [3] = {30, 60},
+    [4] = {40, 100}
 };
 local v2 = {
     LoaderData = {
