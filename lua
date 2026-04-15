@@ -1,9 +1,9 @@
 shared.LoaderTitle = "Loading Script May take few minutes...";
 shared.LoaderKeyFrames = {
-    [1] = {3, 10},
+    [1] = {5, 10},
     [2] = {15, 30},
     [3] = {15, 60},
-    [4] = {20, 100}
+    [4] = {30, 100}
 };
 local v2 = {
     LoaderData = {
@@ -78,7 +78,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: NeilDark",
+    Text = "Youtube: KaizScripts",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -461,7 +461,7 @@ local function createUI()
     subtitle.Size = UDim2.new(1, -50, 0.4, 0)
     subtitle.Position = UDim2.new(0, 15, 0, 25)
     subtitle.Font = Enum.Font.Gotham
-    subtitle.Text = "Youtube:NeilDark"
+    subtitle.Text = "Youtube: KaizScripts"
     subtitle.TextSize = 12
     subtitle.TextColor3 = Color3.fromRGB(150, 200, 255)
     subtitle.TextXAlignment = Enum.TextXAlignment.Left
